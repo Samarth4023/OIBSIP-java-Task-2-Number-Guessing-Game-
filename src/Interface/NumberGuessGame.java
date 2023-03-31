@@ -490,10 +490,10 @@ public class NumberGuessGame extends javax.swing.JFrame {
         String msg;
         switch(errorCatcher) {
             case 1:
-                String msgfui[] = {String.valueOf(numGuess) + " is Less than the random number ! U can do it !",
-                String.valueOf(numGuess) + " is Less than the random number ! Don't Give Up !",
-                String.valueOf(numGuess) + " is Less than the random number ! Oh!! Come ON!!",
-                String.valueOf(numGuess) + " is Less than the random number ! Im Tired of Giving Hints !" };
+                String msgfui[] = {String.valueOf(numGuess) + " is Lower than the random number ! U can do it !",
+                String.valueOf(numGuess) + " is Lower than the random number ! Don't Give Up !",
+                String.valueOf(numGuess) + " is Lower than the random number ! Oh!! Come ON!!",
+                String.valueOf(numGuess) + " is Lower than the random number ! Im Tired of Giving Hints !" };
                 if(errorCount < 2) {
                     msg = String.valueOf(numGuess) + " is less than the random number !";
                 }else {
@@ -502,10 +502,10 @@ public class NumberGuessGame extends javax.swing.JFrame {
                 }
                 break;
             default:
-                String msgfui1[] = {String.valueOf(numGuess) + " is Greater than the random number ! U can do it !",
-                String.valueOf(numGuess) + " is Greater than the random number ! Don't Give Up !",
-                String.valueOf(numGuess) + " is Greater than the random number ! Oh!! Come ON!!",
-                String.valueOf(numGuess) + " is Greater than the random number ! Im Tired of Giving Hints !" };
+                String msgfui1[] = {String.valueOf(numGuess) + " is Higher than the random number ! U can do it !",
+                String.valueOf(numGuess) + " is Higher than the random number ! Don't Give Up !",
+                String.valueOf(numGuess) + " is Higher than the random number ! Oh!! Come ON!!",
+                String.valueOf(numGuess) + " is Higher than the random number ! Im Tired of Giving Hints !" };
                 if(errorCount < 2) {
                     msg = String.valueOf(numGuess) + " is Greater than the random number !";
                 }else {
