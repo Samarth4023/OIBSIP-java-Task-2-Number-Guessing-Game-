@@ -495,7 +495,7 @@ public class NumberGuessGame extends javax.swing.JFrame {
                 String.valueOf(numGuess) + " is Lower than the random number ! Oh!! Come ON!!",
                 String.valueOf(numGuess) + " is Lower than the random number ! Im Tired of Giving Hints !" };
                 if(errorCount < 2) {
-                    msg = String.valueOf(numGuess) + " is less than the random number !";
+                    msg = String.valueOf(numGuess) + " is Lower than the random number !";
                 }else {
                     int randomMes = (int) Math.round(Math.random() * 3);
                     msg = msgfui[randomMes];
@@ -507,7 +507,7 @@ public class NumberGuessGame extends javax.swing.JFrame {
                 String.valueOf(numGuess) + " is Higher than the random number ! Oh!! Come ON!!",
                 String.valueOf(numGuess) + " is Higher than the random number ! Im Tired of Giving Hints !" };
                 if(errorCount < 2) {
-                    msg = String.valueOf(numGuess) + " is Greater than the random number !";
+                    msg = String.valueOf(numGuess) + " is Higher than the random number !";
                 }else {
                     int randomMes = (int) Math.round(Math.random() * 3);
                     msg = msgfui1[randomMes];
