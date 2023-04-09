@@ -14,9 +14,9 @@ The fun and easy project "Guess the Number" is a short Java project that allows 
 
 4. The game continues under the user guessing the number.
 
-==============================
-      Also Incorporated
-==============================
+
+******** Also Incorporated ********
+
 
 1) Limiting the number of attempts.
 
